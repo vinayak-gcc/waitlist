@@ -26,19 +26,19 @@ const NotFound = () => {
       </button>
 
       {/* 404 Text */}
-      <h1 className="text-[10rem] md:text-[21rem] font-bold text-transparent bg-clip-text bg-gradient-to-br from-gray-600 to-gray-400 opacity-40">
+      <h1 className="text-[10rem]  -mt-20 mb-[8rem] md:mb-10 md:mt-10 md:text-[18rem] font-bold text-transparent bg-clip-text bg-gradient-to-br from-gray-600 to-gray-400 opacity-40">
         404
       </h1>
 
       {/* Page Not Found Text */}
-      <h2 className="text-6xl -mt-36 z-10  md:text-7xl font-extrabold">
+      <h2 className=" text-5xl sm:text-6xl -mt-36 z-10  md:text-7xl font-extrabold flex flex-col md:flex-row justify-center items-center">
         <span className="text-white">Page </span>
-        <span className="text-gray-400">Not Found!</span>
+        <span className="text-gray-400 ml-0 md:ml-2">Not Found!</span>
       </h2>
 
       {/* Back Home Button */}
       <Link href="/">
-        <button className="mt-6 px-6 py-3 rounded-full text-black bg-white text-black font-medium text-lg border
+        <button className="mt-6 px-6 py-2 rounded-full scale-90 text-black bg-white text-black font-medium text-lg border
          border-white/20 backdrop-blur-md hover:bg-white/20 transition">
           Back home
         </button>
