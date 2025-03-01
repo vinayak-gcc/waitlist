@@ -63,7 +63,7 @@ const Partners = () => {
           {/* Right Gradient Overlay */}
           <div className="absolute top-0 -right-6 h-full w-24 bg-gradient-to-l from-black via-black/50 to-transparent pointer-events-none z-40"></div>
           {/* Scrolling Container */}
-          <Marquee>
+          <Marquee loop={0} >
 
           <div className=" border-none flex space-x-4 scale-[0.85]">
             {repeatedPartners.map((name, i) => (

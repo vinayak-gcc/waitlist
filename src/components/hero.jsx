@@ -47,7 +47,7 @@ export default function ComingSoonPage() {
       </div>
       </div>
    
-          <h1 className="text-6xl mx-auto flex flex-col sm:flex-row items-center justify-center  tracking-[-0.06em] mt-[2rem]  text-white/90 md:text-7xl font-semibold text-center ">
+          <h1 className="text-6xl mx-auto flex flex-col sm:flex-row items-center justify-center  tracking-[-0.06em] mt-[2rem]  text-white/90 md:text-[4.8rem] font-semibold text-center ">
             <div>Coming </div>
             <div><span className="text-white/80 sm:ml-2"> soon!</span></div>
           </h1>

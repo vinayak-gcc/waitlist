@@ -83,7 +83,7 @@ const Navbar = () => {
             {/* Glassmorphism effect */}
             <div
               className="md:backdrop-blur-md bg-black/60 border border-white/20 rounded-[22px] shadow-[inset_0px_0px_30px_rgba(255,255,255,0.2),0px_10px_20px_rgba(0,0,0,0.4)]
-             w-[620px] h-[48px] mt-3 absolute left-1/2 top-0 -translate-x-1/2 box-border pointer-events-none"
+             w-[630px] h-[48px] mt-3 absolute left-1/2 top-0 -translate-x-1/2 box-border pointer-events-none"
             ></div>
             
             {/* Navbar Content */}
@@ -94,7 +94,7 @@ const Navbar = () => {
               <div className="flex items-center text-white text-xs font-extrabold space-x-5">
                 <a
                   href="#Hero"
-                  className="font-bold border border-white/30 py-2.5 px-4 rounded-2xl bg-white/5 -ml-6 flex items-center space-x-1 group-hover:top-0 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)] relative"
+                  className="font-md  border text-[0.9rem] border-white/30 py-2.5 px-3 rounded-2xl bg-white/5 -ml-5 flex items-center space-x-1 relative"
                 >
                   Hero v01
                   <ChevronDown size={18} className="text-white ml-1" />
@@ -132,7 +132,8 @@ const Navbar = () => {
               <div className="flex items-center">
                 <a
                   href="#Hero"
-                  className="text-white flex items-center space-x-1 mr-4 border shadow-[0_0_20px_rgba(255,255,255,0.45)] border-white/30 py-1.5 px-3 rounded-2xl bg-black/30"
+                  className="text-white flex items-center space-x-1 mr-4 border shadow-[0_0_20px_rgba(255,255,255,0.45)]
+                   border-white/30 py-1.5 px-3 rounded-2xl bg-black/30"
                 >
                   <span>Hero v01</span>
                   <ChevronDown size={16} className="text-white" />

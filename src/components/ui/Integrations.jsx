@@ -64,7 +64,7 @@ const Integrations = () => {
               Connect your <span className="text-white/50">tools</span>
             </h2>
             
-            <div className="relative rounded-xl mx-auto w-full border-2 md:border max-w-md shadow-[0_0_20px_rgba(255,255,255,0.25)] scale-95">
+            <div className="relative rounded-xl mx-auto w-full border-2 md:border max-w-md shadow-[0_0_20px_rgba(255,255,255,0.25)] scale-100">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500 w-5 h-5" />
               <input
                 type="text"
